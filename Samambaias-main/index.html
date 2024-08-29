@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <title> Samambaia’s </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="stylesheet" type="text/html" href="./pages/cardapio.html">
+    <link rel="stylesheet" type="text/html" href="./pages/sobre.html"/>
+    <link rel="icon" type="image/png" href="./assets/img/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+<!--nav-->
+<header>
+    <nav>
+        <ul class='nav-bar'>
+            <li class='logo'><a href='/index.html'><img src="./assets/img/Logo/LogoSamambaia.png"/></a></li>
+            <input class="check" type='checkbox' id='check' />
+            <span class="menu">
+                <li><a href="./index.html">Início</a></li>
+                <li><a href="./pages/cardapio.html">Cardápio</a></li>
+                <li><a href="./pages/sobre.html">Sobre nós</a></li>
+                <li><a href="./pages/contato.html">Contato</a></li>
+                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+        </ul>
+    </nav>
+    </header>
+
+<!--carrossel-->
+    <section class="carrossel">
+        <div class="slides">
+            <input class="input" type="radio" name="slide" id="slide1">
+            <input class="input" type="radio" name="slide" id="slide2">
+            <input class="input" type="radio" name="slide" id="slide3">
+            <input class="input" type="radio" name="slide" id="slide4">
+
+            <div class="slide s1">
+                <img src="./assets/img/Slider/slider11.png">
+            </div>
+            <div class="slide">
+                <img src="./assets/img/Slider/slider22.png" >
+            </div>
+            <div class="slide">
+                <img src="./assets/img/Slider/slider33.png">
+            </div>
+            <div class="slide">
+                <img src="./assets/img/Slider/slider44.webp">
+            </div>
+        </div>
+
+        <div class="tabela">
+            <label class="bar" for="slide1"></label>
+            <label class="bar" for="slide2"></label>
+            <label class="bar" for="slide3"></label>
+            <label class="bar" for="slide4"></label>
+        </div>
+        
+    </section>
+
+    
+    <!--banner e cartaz-->
+    
+    <div class="banner">
+        <h2 class="texto_banner">PARA TERMOS UM FUTURO</h2>
+        <button class="botao_pedido"><a href="https://api.whatsapp.com/send?phone=5511941741429&text=BEM%20VINDO%20AO%20SAMAMBAIA%27S%20RESTAURANTE%20VEGANO,%20AQUI%20SERVIMOS%20DIVERSAS%20COMIDAS%20SEM%20ALGUMA%20ORIGEM%20ANIMAL.%20QUAL%20SERIA%20O%20SEU%20PEDIDO?%0A">FAÇA SEU PEDIDO</a></button>
+    </div>
+</br>
+    <section class="cartaz">
+        <img src="./assets/img/Painel.png">
+        <button><span><a href="./pages/cardapio.html">CARDÁPIO</a></span></button>
+    </section> 
+</br>
+    <section class="cartaz">
+        <h2 class="texto_banner">CONFIRA AS OFERTAS</h2>
+        <img src="./assets/img/Painel2.jfif">
+    </section> 
+</br>
+
+</main>
+
+<!--footer--><footer>
+            <div class="footer_menu">
+                <div class="coluna1">
+                    <div>
+                        <p class="footer_copyright">Tel(11)94174-1429</p>
+                        <p class="footer_copyright">Email: samambaiascontato@gmail.com</p>
+                    </div>
+        
+                    <div>
+                        <ul class="footer_links">
+                            <li class="footer_elem">
+                                <a class="footer_linkr" id="linkfot">Links</a>
+                            </li>
+                            <li class="footer_eleme">
+                                <a href="./index.html" class="footer_linkr">Home</a>
+                            </li>
+                            <li class="footer_elem">
+                                <a href="./pages/cardapio.html" class="footer_linkr">Cardapio</a>
+                            </li>
+                            <li class="footer_elem">
+                                <a href="./pages/sobre.html" class="footer_linkr">Sobre Nos</a>
+                            </li>
+                            <li class="footer_elem">
+                                <a href="./pages/contato.html" class="footer_linkr">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        
+                <div class="footer_nos">
+                    <ul class="footer_icon">
+                        <li class="footer_elem">
+                            <a href="https://www.instagram.com/samambaia_s/" class="footer_icon" ><img src="./assets/img/Icones/imgInstaClaro.png" alt="Instagram" id="ig"></a>
+                        </li>
+                        <li class="footer_elem">
+                            <a href="https://api.whatsapp.com/send?phone=5511941741429&text=BEM%20VINDO%20AO%20SAMAMBAIA%27S%20RESTAURANTE%20VEGANO,%20AQUI%20SERVIMOS%20DIVERSAS%20COMIDAS%20SEM%20ALGUMA%20ORIGEM%20ANIMAL.%20QUAL%20SERIA%20O%20SEU%20PEDIDO?%0A"    
+                            class="footer_icon" ><img src="./assets/img/Icones/imgWppClaro.png" alt="WhatsApp" id="wpp"></a> 
+                        </li>
+                        <li class="footer_elem">
+                            <a href="./pages/contato.html" class="footer_icon" ><img src="./assets/img/Icones/imgGmailClaro.png" alt="Gmail" id="gmail"></a> 
+                        </li>
+                    </ul>
+                </div>
+        
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.324773027795!2d-46.73036142467097!3d-23.520818578827694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8c1d371ec31%3A0x671c9325c275132e!2sETEC%20Prof%C2%B0%20Basilides%20de%20Godoy!5e0!3m2!1spt-BR!2sbr!4v1723833398363!5m2!1spt-BR!2sbr"
+                width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+                <section> 
+                    <a href="#" class="btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e8eaed"><path d="M214-175.33q-44.06-45-69.03-104T120-400.67q0-69.66 25-130.5Q170-592 222-644q35-35 86.83-59.33 51.84-24.34 122.34-38.17 70.5-13.83 160-17.17 89.5-3.33 199.5 4.67 8 107.33 5.33 196.67-2.67 89.33-16.17 160.66-13.5 71.34-38 124.71-24.5 53.38-60.5 89.29Q629.67-131 570.5-105.5T446-80q-67.67 0-126.67-24.17-59-24.16-105.33-71.16Zm106-5.34q26.33 17 58.5 25.5t67.45 8.5q50.72 0 99.05-20.83t89.33-62.5q24-24 42.84-63.83 18.83-39.84 31.33-97Q721-448 726-522.83q5-74.84.67-169.17-79-2-149.17 1.17-70.17 3.16-128.5 14.16t-104 30q-45.67 19-74.67 48.67-43 43.67-63.33 90.33Q186.67-461 186.67-414q0 51.67 21.16 101.5 21.17 49.83 46.84 77.17 49.33-92 121.66-168.5 72.34-76.5 158.34-122.17-82 71-135.84 155.83Q345-285.33 320-180.67Zm0 0Zm0 0Z"/></svg>
+                    </a>           
+                </section>
+            </div>
+            <div class="footer_copyright">
+               <p>&#169 2024 all rights reserved || Basilides de Godoy</p> 
+            </div>
+        </footer>
+    
+    <script src="script.js"></script>
+
+</body>
+
+</html>
